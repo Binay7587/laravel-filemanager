@@ -1,5 +1,5 @@
 {
-    "name": "binay/laravelfilemanager",
+    "name": "binay7587/laravel-filemanager",
     "description": "Laravel Filemanager supporting laravel 8.",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,7 @@
             "homepage": "http://binayakarki.com.np"
         }
     ],
-    "homepage": "https://github.com/binay/laravelfilemanager",
+    "homepage": "https://github.com/binay7587/laravelfilemanager",
     "keywords": [
         "filemanager",
         "laravel",
@@ -44,21 +44,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Binay\\LaravelFilemanager\\": "src/"
+            "Binay7587\\LaravelFilemanager\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Binay\\LaravelFilemanager\\Tests\\": "tests"
+            "Binay7587\\LaravelFilemanager\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Binay\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
+                "Binay7587\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
             ],
             "aliases": {
-                "LaravelFilemanager": "Binay\\LaravelFilemanager\\Facades\\LaravelFilemanager"
+                "LaravelFilemanager": "Binay7587\\LaravelFilemanager\\Facades\\LaravelFilemanager"
             }
         }
     }
