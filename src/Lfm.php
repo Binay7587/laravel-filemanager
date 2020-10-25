@@ -1,13 +1,13 @@
 <?php
 
-namespace Binay\LaravelFilemanager;
+namespace Binay7587\LaravelFilemanager;
 
 use Illuminate\Contracts\Config\Repository as Config;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
-use Binay\LaravelFilemanager\Middlewares\CreateDefaultFolder;
-use Binay\LaravelFilemanager\Middlewares\MultiUser;
+use Binay7587\LaravelFilemanager\Middlewares\CreateDefaultFolder;
+use Binay7587\LaravelFilemanager\Middlewares\MultiUser;
 
 class Lfm
 {

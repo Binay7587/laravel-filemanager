@@ -1,6 +1,6 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Events;
+namespace Binay7587\LaravelFilemanager\Events;
 
 class ImageWasResized
 {

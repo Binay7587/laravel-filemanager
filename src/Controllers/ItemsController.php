@@ -1,11 +1,11 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Controllers;
+namespace Binay7587\LaravelFilemanager\Controllers;
 
-use Binay\LaravelFilemanager\Events\FileIsMoving;
-use Binay\LaravelFilemanager\Events\FileWasMoving;
-use Binay\LaravelFilemanager\Events\FolderIsMoving;
-use Binay\LaravelFilemanager\Events\FolderWasMoving;
+use Binay7587\LaravelFilemanager\Events\FileIsMoving;
+use Binay7587\LaravelFilemanager\Events\FileWasMoving;
+use Binay7587\LaravelFilemanager\Events\FolderIsMoving;
+use Binay7587\LaravelFilemanager\Events\FolderWasMoving;
 
 class ItemsController extends LfmController
 {

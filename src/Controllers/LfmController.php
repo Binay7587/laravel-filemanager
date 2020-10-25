@@ -1,9 +1,9 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Controllers;
+namespace Binay7587\LaravelFilemanager\Controllers;
 
-use Binay\LaravelFilemanager\Lfm;
-use Binay\LaravelFilemanager\LfmPath;
+use Binay7587\LaravelFilemanager\Lfm;
+use Binay7587\LaravelFilemanager\LfmPath;
 
 class LfmController extends Controller
 {

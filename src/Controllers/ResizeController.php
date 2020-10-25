@@ -1,10 +1,10 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Controllers;
+namespace Binay7587\LaravelFilemanager\Controllers;
 
 use Intervention\Image\Facades\Image;
-use Binay\LaravelFilemanager\Events\ImageIsResizing;
-use Binay\LaravelFilemanager\Events\ImageWasResized;
+use Binay7587\LaravelFilemanager\Events\ImageIsResizing;
+use Binay7587\LaravelFilemanager\Events\ImageWasResized;
 
 class ResizeController extends LfmController
 {

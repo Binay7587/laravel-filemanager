@@ -4,8 +4,8 @@
 |--------------------------------------------------------------------------
 | Documentation for this config :
 |--------------------------------------------------------------------------
-| online  => http://unisharp.github.io/laravel-filemanager/config
-| offline => vendor/unisharp/laravel-filemanager/docs/config.md
+| online  => http://binay7587.github.io/laravel-filemanager/config
+| offline => vendor/binay7587/laravel-filemanager/docs/config.md
  */
 
 return [
@@ -33,7 +33,7 @@ return [
     // Then you can rewrite userField function in App\Handler\ConfigHandler class
     // And set 'user_field' to App\Handler\ConfigHandler::class
     // Ex: The private folder of user will be named as the user id.
-    'private_folder_name'      => UniSharp\LaravelFilemanager\Handlers\ConfigHandler::class,
+    'private_folder_name'      => Binay7587\LaravelFilemanager\Handlers\ConfigHandler::class,
 
     'allow_shared_folder'      => true,
 

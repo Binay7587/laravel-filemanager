@@ -1,9 +1,9 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Controllers;
+namespace Binay7587\LaravelFilemanager\Controllers;
 
-use Binay\LaravelFilemanager\Events\ImageIsDeleting;
-use Binay\LaravelFilemanager\Events\ImageWasDeleted;
+use Binay7587\LaravelFilemanager\Events\ImageIsDeleting;
+use Binay7587\LaravelFilemanager\Events\ImageWasDeleted;
 
 class DeleteController extends LfmController
 {

@@ -2,7 +2,7 @@
 
 namespace App\Handlers;
 
-use Binay\LaravelFilemanager\Handlers\ConfigHandler;
+use Binay7587\LaravelFilemanager\Handlers\ConfigHandler;
 
 class LfmConfigHandler extends ConfigHandler
 {

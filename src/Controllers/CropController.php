@@ -1,10 +1,10 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Controllers;
+namespace Binay7587\LaravelFilemanager\Controllers;
 
 use Intervention\Image\Facades\Image;
-use Binay\LaravelFilemanager\Events\ImageIsCropping;
-use Binay\LaravelFilemanager\Events\ImageWasCropped;
+use Binay7587\LaravelFilemanager\Events\ImageIsCropping;
+use Binay7587\LaravelFilemanager\Events\ImageWasCropped;
 
 class CropController extends LfmController
 {

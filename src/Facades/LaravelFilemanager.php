@@ -1,6 +1,6 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Facades;
+namespace Binay7587\LaravelFilemanager\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

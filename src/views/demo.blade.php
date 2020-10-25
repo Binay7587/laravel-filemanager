@@ -114,7 +114,7 @@
   </script>
 
   <script>
-    {!! \File::get(base_path('vendor/binay/laravel-filemanager/public/js/stand-alone-button.js')) !!}
+    {!! \File::get(base_path('vendor/binay7587/laravel-filemanager/public/js/stand-alone-button.js')) !!}
   </script>
   <script>
     $('#lfm').filemanager('image', {prefix: route_prefix});

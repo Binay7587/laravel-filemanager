@@ -1,6 +1,6 @@
 <?php
 
-namespace Binay\LaravelFilemanager;
+namespace Binay7587\LaravelFilemanager;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -36,7 +36,7 @@ class LaravelFilemanagerServiceProvider extends ServiceProvider
 
         if (config('lfm.use_package_routes')) {
             Route::group(['prefix' => 'filemanager', 'middleware' => ['web', 'auth']], function () {
-                \Binay\LaravelFilemanager\Lfm::routes();
+                \Binay7587\LaravelFilemanager\Lfm::routes();
             });
         }
     }
@@ -80,17 +80,17 @@ class LaravelFilemanagerServiceProvider extends ServiceProvider
 
         // Publishing the views.
         /*$this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/binay'),
+            __DIR__.'/../resources/views' => base_path('resources/views/vendor/binay7587'),
         ], 'laravelfilemanager.views');*/
 
         // Publishing assets.
         /*$this->publishes([
-            __DIR__.'/../resources/assets' => public_path('vendor/binay'),
+            __DIR__.'/../resources/assets' => public_path('vendor/binay7587'),
         ], 'laravelfilemanager.views');*/
 
         // Publishing the translation files.
         /*$this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/binay'),
+            __DIR__.'/../resources/lang' => resource_path('lang/vendor/binay7587'),
         ], 'laravelfilemanager.views');*/
 
         // Registering package commands.

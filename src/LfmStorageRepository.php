@@ -1,6 +1,6 @@
 <?php
 
-namespace Binay\LaravelFilemanager;
+namespace Binay7587\LaravelFilemanager;
 
 use Illuminate\Support\Facades\Storage;
 use League\Flysystem\Cached\CachedAdapter;

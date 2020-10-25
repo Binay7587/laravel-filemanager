@@ -1,11 +1,11 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Controllers;
+namespace Binay7587\LaravelFilemanager\Controllers;
 
-use Binay\LaravelFilemanager\Events\ImageIsRenaming;
-use Binay\LaravelFilemanager\Events\ImageWasRenamed;
-use Binay\LaravelFilemanager\Events\FolderIsRenaming;
-use Binay\LaravelFilemanager\Events\FolderWasRenamed;
+use Binay7587\LaravelFilemanager\Events\ImageIsRenaming;
+use Binay7587\LaravelFilemanager\Events\ImageWasRenamed;
+use Binay7587\LaravelFilemanager\Events\FolderIsRenaming;
+use Binay7587\LaravelFilemanager\Events\FolderWasRenamed;
 
 class RenameController extends LfmController
 {

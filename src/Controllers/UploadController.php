@@ -1,11 +1,11 @@
 <?php
 
-namespace Binay\LaravelFilemanager\Controllers;
+namespace Binay7587\LaravelFilemanager\Controllers;
 
 use Illuminate\Support\Facades\Log;
-use Binay\LaravelFilemanager\Events\ImageIsUploading;
-use Binay\LaravelFilemanager\Events\ImageWasUploaded;
-use Binay\LaravelFilemanager\Lfm;
+use Binay7587\LaravelFilemanager\Events\ImageIsUploading;
+use Binay7587\LaravelFilemanager\Events\ImageWasUploaded;
+use Binay7587\LaravelFilemanager\Lfm;
 
 class UploadController extends LfmController
 {

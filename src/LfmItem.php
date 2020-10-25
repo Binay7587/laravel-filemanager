@@ -1,6 +1,6 @@
 <?php
 
-namespace Binay\LaravelFilemanager;
+namespace Binay7587\LaravelFilemanager;
 
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
