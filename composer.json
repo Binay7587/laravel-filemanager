@@ -1,0 +1,65 @@
+{
+    "name": "binay/laravelfilemanager",
+    "description": "Laravel Filemanager supporting laravel 8.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Binaya Karki",
+            "email": "Binay7587@gmail.com",
+            "homepage": "http://binayakarki.com.np"
+        }
+    ],
+    "homepage": "https://github.com/binay/laravelfilemanager",
+    "keywords": [
+        "filemanager",
+        "laravel",
+        "LaravelFilemanager",
+        "ckeditor",
+        "tinymce",
+        "upload",
+        "file",
+        "manager",
+        "image"
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-exif": "*",
+        "ext-fileinfo": "*",
+        "intervention/image": "2.*",
+        "illuminate/config": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/filesystem": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/http": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/container": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6",
+        "mockery/mockery": "^0.9.9",
+        "squizlabs/php_codesniffer": "^3.1"
+    },
+    "suggest": {
+        "ext-gd": "to use GD library based image processing.",
+        "ext-imagick": "to use Imagick based image processing."
+    },
+    "autoload": {
+        "psr-4": {
+            "Binay\\LaravelFilemanager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Binay\\LaravelFilemanager\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Binay\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
+            ],
+            "aliases": {
+                "LaravelFilemanager": "Binay\\LaravelFilemanager\\Facades\\LaravelFilemanager"
+            }
+        }
+    }
+}
